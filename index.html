@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p style="font-size: xx-large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti quia praesentium quidem. Consequuntur quae cum laborum! Expedita totam corporis aliquam error, modi temporibus sapiente accusamus, at voluptates fugiat itaque 1.<span id="s1" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti quia praesentium quidem. Consequuntur quae cum laborum! Expedita totam corporis aliquam error, modi temporibus sapiente accusamus, at voluptates fugiat itaque 2.</span><span id="s2" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti quia praesentium quidem. Consequuntur quae cum laborum! Expedita totam corporis aliquam error, modi temporibus sapiente accusamus, at voluptates fugiat itaque 3.</span></p>
+    <a id="a1" href="#" onclick="readMore()">read more..</a>
+    <a style="display: none;" id="a2" href="#" onclick="readMore(),readMore2()">read more...</a>
+    <a style="display: none;" id="a3" href="#" onclick="readMore2(), readLess()">read less..</a>
+    <script src="app.js"></script>
+    <a style="display: none;" id="a4" href="#" onclick="readLess(), readLess2()">read less...</a>
+    <script src="app.js"></script>
+</body>
+</html>
